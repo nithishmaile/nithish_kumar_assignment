@@ -1,0 +1,36 @@
+
+.social-proof-container{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    max-height: 50vh;
+    width:100%;
+    margin-top:20px;
+}
+
+.logo-text{
+    display:flex;
+    align-items:center;
+    margin-right: 30px;
+}
+
+.social-proof-logo-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30px;
+}
+
+@media screen and (max-width:767px){
+    .social-proof-container{
+        padding-top:40px;
+    }
+    .social-proof-logo-container{
+        padding-left:12px;
+    }
+    .logo-text{
+        max-width:25%;
+        margin-bottom: 30px;
+    }
+}

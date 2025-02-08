@@ -1,0 +1,105 @@
+
+.features-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+    margin:30px 0px 20px 0px;
+}
+
+.features-heading{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:red;
+}
+
+.analytics-heading{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #101828;
+
+}
+
+.features-description{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#475467;
+}
+
+.features-card-heading{
+    color:#101828;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.features-card-description{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #475467;
+}
+
+.features-card-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+}
+
+.features-text-container{
+    width:90%;
+}
+
+.features-card{
+    width:90%;
+    padding:10px;
+    margin-top:30px;
+}
+
+@media screen and (min-width:768px){
+    .features-container{
+        margin-top:100px;
+        margin-bottom:0px;
+    }
+    .features-text-container{
+        width:60%;
+    }
+    .features-card-container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top:20px;
+    }
+
+    .features-card{
+        width:30%;
+        padding:10px;
+        margin:0px 0px 30px 0px;
+    }
+}

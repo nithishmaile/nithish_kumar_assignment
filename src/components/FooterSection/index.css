@@ -1,0 +1,19 @@
+
+.footer-section-container{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    background-color: #EAECF0;
+    margin:0px 0px 20px 0px;
+    padding:20px 0px 10px 10px;
+}
+
+
+@media screen and (min-width:768px){
+    .footer-section-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right:20px;
+    }
+}
